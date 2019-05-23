@@ -1,0 +1,30 @@
+#tekstet{
+    background-color:white;
+    margin-top: 500px;
+        
+    
+}
+#tekst1{
+            position: relative;
+            float: left;
+            margin: 10px;
+            width: 30%;
+            color: whitesmoke;
+           }
+#tekst2{
+            float: left;
+            position: relative;
+            margin:10px;
+            width: 30%;
+            color:whitesmoke;
+        }
+table{
+    width: 100%;
+}
+th{
+    text-align: left;
+    padding: 10px;
+}
+a {
+   color:orange;
+}
