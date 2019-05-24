@@ -1,24 +1,25 @@
 <?php
 
-session_start();
-$con = mysqli_connect('localhost', 'root', '');
+	session_start();
 
-mysqli_select_db($con, 'user_signup');
+	$con = mysqli_connect('localhost', 'root', '');
 
-$name = $_POST['user'];
-$pass = $_POST['password'];
+	mysqli_select_db($con, 'user_signup');
 
-$s = " select * from usertable where name = '$name' && password = '$pass'";
+	$name = $_POST['user'];
+	$pass = $_POST['password'];
 
-$result = mysqli_query($con, $s);
+	$s = " select * from usertable where name = '$name' && password='$pass'";
 
-$num = mysqli_num_rows($result);
+	$result = mysqli_query($con, $s);
 
-if($num==1){
-	$_SESSION['username']=$name;
-	header('location:index.php');
-}
-else {
-	header('location:login.php');
-}
+	$num = mysqli_num_rows($result);
+
+	if($num==1){
+		header('location:home.php');
+	}
+	else {
+		header('location:login.php');
+
+	}
 ?>
