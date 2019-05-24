@@ -51,7 +51,7 @@ function goBack() {
 extract($_POST);
 if(isset($submit))
 {
-    $pattern="/^[a]/";
+    $pattern="/^[A-Z]/";
     if(preg_match($pattern, $client))
     {
         echo " ";
