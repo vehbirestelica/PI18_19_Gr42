@@ -3,8 +3,7 @@
 <head>
 	<title>User Login and Registration</title>
 	<link rel="stylesheet" type="text/css" href="signupcss.css">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 	<div class="container">
@@ -15,31 +14,31 @@
 				<form action="validation.php" method="post">
 					<div class="form-group">
 						<label>Username</label>
-						<input type="text" name="user" class="form-control" required>
+						<input type="text" name="user" class="form-control" required="">
 					</div>
 					<div class="form-group">
 						<label>Password</label>
-						<input type="password" name="password" class="form-control" required>
+						<input type="password" name="password" class="form-control" required="">
 					</div>
 					<button type="submit" class="btn btn-primary">Login</button>
 				</form>
 			</div>
-
-			<div class="col-md-6 login-right">
+					<div class="col-md-6 login-right">
 				<h2>Register Here</h2>
 				<form action="registration.php" method="post">
 					<div class="form-group">
 						<label>Username</label>
-						<input type="text" name="user" class="form-control" required>
+						<input type="text" name="user" class="form-control" required="">
 					</div>
 					<div class="form-group">
 						<label>Password</label>
-						<input type="password" name="password" class="form-control" required>
+						<input type="password" name="password" class="form-control" required="">
 					</div>
 					<button type="submit" class="btn btn-primary">Register</button>
 				</form>
 			</div>
 		</div>
 	</div>
+</div>
 </body>
 </html>
