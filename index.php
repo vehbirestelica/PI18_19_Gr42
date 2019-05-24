@@ -33,7 +33,7 @@
         color: whitesmoke;    
     }
   #signup a:hover {
-  	color: red;
+    color: red;
   }
   .sec
         {
@@ -181,11 +181,11 @@ height: 18px;
 
         }    
         a {
-        	text-decoration: none;
+            text-decoration: none;
         }
         #linku {
-        	font-family: verdana;
-        	font-size: 16.3px;
+            font-family: verdana;
+            font-size: 16.3px;
         }
 
     </style>
@@ -225,7 +225,7 @@ height: 18px;
         <li><a href="#">More Options</a>
             <ul>
             <li><a href="pages/sistemi%20diellor.html">Sistemi Diellor</a></li><hr>
-        	<li><a href="pages/signup.php"> Sign Up </a></li><hr>
+            <li><a href="pages/signup.php"> Sign Up </a></li><hr>
         </ul>
         <li><a href="pages/login.php"> Log In </a></li>
     </nav><br>
@@ -327,7 +327,7 @@ MONUMENTAL - World's largest online news destination.
     <a href="https://github.com/" class="active" target="_blank"><span style="margin-left: -90%;">This link directs to an active website on internet</a><br><hr style="margin-left: -90%;"></span><br>
       <a href="images/p3.jpg" class="active" target="_blank"><span style="margin-left: -90%;">This link directs to a photo taken by PC</a><br><hr style="margin-left: -90%;"></span><br>
     <a href="mailto:vehbi.res@gmail.com" class="active"><span style="margin-left: -90%;">This link directs to an e-mail address</a><br><hr style="margin-left: -90%;"></span><br>
-        <a href="#Home" class="active"><span style="margin-left: -90%;">This link directs to web-page's header</a> <br><hr style="margin-left: -90%;"></span></td>
+        <a href="RegEx.php" class="active"><span style="margin-left: -90%;">This link directs to RegEx examples</a> <br><hr style="margin-left: -90%;"></span></td>
         <td><b>Company:</b> Monumental<br><b>Street:</b> Calle Bailén <b>Str.</b><br><b>Town:</b> Madrid<br><b>ZipCode:</b>28047<br><br><b>Tel:</b><br>049 123/456<br><b>Fax:</b><br>
         38349 123/456<br><br><b>Email:</b><br>team@monumental.com
         </td>
