@@ -1,7 +1,6 @@
 <?php
 
 	session_start();
-
 	$con = mysqli_connect('localhost', 'root','');
 
 	mysqli_select_db($con, 'user_signup');
@@ -24,7 +23,4 @@
 		mysqli_query($con, $reg);
 		echo "Registration Successful ! ";
 	}
-
-
-
 ?>
