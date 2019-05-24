@@ -170,5 +170,20 @@ if(isset($submit))
 </fieldset>   
 </div> 
 </form>
+    <?php 
+    $copyright = "Copyright 1999";
+    $copyright = preg_replace("/([0-9]+)/", "2000", $copyright);
+
+    print $copyright;
+    ?>
+    <?php
+   $ip = "123.456.789.000"; // some IP address
+   $iparr = preg_split ("/\./", $ip); 
+   
+   print "$iparr[0]  " ;
+   print "$iparr[1] "  ;
+   print "$iparr[2] "  ;
+   print "$iparr[3] "  ;
+?>
 </body>
 </html>
