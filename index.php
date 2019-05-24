@@ -219,15 +219,16 @@ height: 18px;
         <li><a href="pages/sports.html">Sports &nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/stanlee.html">Lifestyle &nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/tech.html">Tech &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/longtextlink.html">Long text link &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/contact.html">Contact Us &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/register.html"> Login or Register </a></li>
+        <!-- <li><a href="pages/longtextlink.html">Long text link &nbsp&nbsp&nbsp |</a></li> -->
+        <li><a href="pages/contact.php">Contact Us &nbsp&nbsp&nbsp |</a></li>
+        
         <li><a href="#">More Options</a>
             <ul>
             <li><a href="pages/sistemi%20diellor.html">Sistemi Diellor</a></li><hr>
-        	<li><a href="pages/register.html"> Sign Up </a></li><hr>
+        	<li><a href="pages/signup.php"> Sign Up </a></li><hr>
         </ul>
-    </nav><br> <hr>
+        <li><a href="pages/login.php"> Log In </a></li>
+    </nav><br>
        <div id="fotot">
    
 <center> <h1 style="color:Gray">
