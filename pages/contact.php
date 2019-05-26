@@ -38,14 +38,16 @@ function goBack() {
 <tr>
 <td colspan="2">
 <p><label>Subject :</label>
-<input id="teksti"type="text" name="subject" size="90"/ >    
+<input id="teksti"type="text" name="subject" size="90" /> 
+<b>*</b>   
 </p>
     <p><label>Feedback :</label><br/>
-<textarea id="teksti" name="Feedback" rows="9" cols="100" size="200"></textarea>    
+<textarea id="teksti" name="Feedback" rows="9" cols="100" size="200"></textarea>
+<b>*</b>    
 </p>
     <hr/>
 <p><label>Your Name :</label>
-<input id="teksti"type="text" name="client" placeholder="Your name..."/>    
+<input id="teksti"type="text" name="client" placeholder="Your name..."/>   <b>*</b>
 <?php
 
 extract($_POST);
@@ -67,6 +69,7 @@ if(isset($submit))
 <input id="teksti"type="radio" name="age" value="<18"/> &lt;18
 <input id="teksti"type="radio" name="age" value=">18"/> &gt;18
 <input id="teksti"type="radio" name="age" value=">45"/> &gt;45
+<b>*</b>
 </p>
 <p>
 <label>Continent :</label>
@@ -82,6 +85,7 @@ if(isset($submit))
 </p>
 <label>E-mail : </label>
 <input id="teksti"type="email" name="email" placeholder="e-mail"/>
+<b>*</b>
 </select>
 <?php
 
@@ -91,7 +95,7 @@ if(isset($submit))
     $pattern3="/[a-zA-Z0-9.-]+@[a-zA-Z0-9]+\.(net|com|edu)/";
     if(preg_match($pattern3, $email))
     {
-        echo " Your Email format is correct. ";
+        echo " ";
     }
     else {
         echo "Your Email Format is wrong. It must have a <big>.net, .com, .edu</big> domain ! ";
@@ -112,7 +116,7 @@ if(isset($submit))
     $pattern5="/^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/";
     if(preg_match($pattern5, $date))
     {
-        echo " Your Date format is correct. ";
+        echo " ";
     }
     else {
         echo "Your Date Format is wrong !It must be 'dd/mm/yyyy'";
@@ -129,17 +133,18 @@ if(isset($submit))
 <p>
 <label>Phone Number :</label>
 <input id="teksti" type="phone" name="phonenumber" />
+<b>*</b>
 <?php extract($_POST);
 if(isset($submit))
 {    $pattern2="/(04)\d[-.]\d\d\d[-.]\d\d\d/";
 
     if(preg_match($pattern2,$phonenumber))
     {
-        echo "Your Phone Format is correct !";
+        echo " ";
     }
     else
     {
-        echo "Phone Number format is wrong !";
+        echo "<b>* Phone Number required !</b>";
     } 
 }
 ?>
@@ -154,10 +159,10 @@ if(isset($submit))
     $pattern4="/{0-10}/";
     if(preg_match($pattern4, $rate))
     {
-        echo " Thank you for your fedback :)";
+        echo " ";
     }
     else {
-        echo "<b> * This is a required field !</b>";
+        echo " ";
     }
 }
 ?>
@@ -166,7 +171,12 @@ if(isset($submit))
 <input id="teksti" type="reset"  value="Reset"/>
 </td>
 </tr>      
-</table>   
+</table>  
+<?php
+
+	 // Your Input : 
+
+?> 
 </fieldset>   
 </div> 
 </form>
