@@ -218,14 +218,15 @@
         <li><a href="index.html"><i class="fas fa-home"> Home </i>&nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/sports.html">Sports &nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/stanlee.html">Lifestyle &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/tech.html">Tech &nbsp&nbsp&nbsp |</a></li>
+        <li><a href="pages/inheritance.php">OP &nbsp&nbsp&nbsp |</a></li>
+        <!-- <li><a href="pages/tech.html">Tech &nbsp&nbsp&nbsp |</a></li> -->
         <!-- <li><a href="pages/longtextlink.html">Long text link &nbsp&nbsp&nbsp |</a></li> -->
         <li><a href="pages/contactform.php">Contact Us &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="#">OOP</a>
+        <li><a href="#">OOP &nbsp&nbsp&nbsp |</a>
             <ul>
-                <li><a href="pages/OOP1.php"> Excample 1 </a></li>
-                <li><a href="pages/OOP1.php"> Excample 2</a></li>
-                <li><a href="pages/OOP1.php"> Excample 3</a></li>
+                <li><a href="pages/OOP.php"> Excample 1 </a></li>
+                <li><a href="pages/OOP.php"> Excample 2</a></li>
+                <li><a href="pages/OOP3.php"> Excample 3</a></li>
         <!-- <li><a href="pages/sistemi%20diellor.html">Sistemi Diellor</a></li><hr> -->
         </ul>
         <li><a href="pages/login.php"> Log In </a></li>
