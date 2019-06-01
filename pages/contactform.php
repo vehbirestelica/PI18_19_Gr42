@@ -2,6 +2,34 @@
 <link rel="stylesheet" type="text/css" href="contactform.css">
 <div class="container">
 	<!-- PHP_SELF e therret faqen (form-process) vet duke u varur nga line 1 -->
+<div class="success" style="font-size: 30px;">
+<?php  
+// Class Geeks 
+class Hello { 
+  public function sayhello() { 
+     echo "Hello"; 
+  } 
+} 
+  
+// Trait forGeeks 
+trait There { 
+  public function sayThere() { 
+     echo " There,<br/>"; 
+  } 
+} 
+  
+class Sample extends Hello { 
+   use There; 
+   public function HaveANiceDay() { 
+      echo "Have a nice day :)"; 
+  }  
+} 
+  
+$test = new Sample(); 
+$test->sayhello(); 
+$test->sayThere(); 
+$test->HaveANiceDay(); 
+?> </div>
 	<form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
 		<h3>Quick Contact</h3>
 		<h4>Contact us today, and get reply within 24 hours !</h4>
@@ -39,6 +67,7 @@
 	        print "";
 	    }
 		var $data;
+		public $msgg;
 
 		function Paginate($values, $per_page){
 
@@ -88,5 +117,6 @@
 	       print " " . __CLASS__ . "\n";
 	       $obj = new Pagination();
 	}
+
 ?>
 </span>
