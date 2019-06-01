@@ -11,11 +11,6 @@
    print "$iparray[2] <br />"  ;
    print "$iparray[3] <br />"  ;
 
-   // $copy_date = "Copyright 1999";
-   // $copy_date = preg_replace("([0-9]+)", "2000", $copy_date);
-   
-   // print $copy_date;
-
    echo "<br><br><h3><strong>'PREG_MATCH FUNCTION'</strong> </h3><br>";
 
    	$line = "aAbBcC-dD_-/\}.23{-}eEfFgGhHiIjJkK./023][e2dGGE00.1333,2334";
