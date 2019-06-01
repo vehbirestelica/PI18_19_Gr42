@@ -8,7 +8,7 @@
 
 		public function Make()
 		{
-			$this->site_email = 'monumental@monumental.com';
+			$this->site_email = 'team@monumental.com';
 			$this->site_name = 'Monumental';
 			$this->user_id = '12345678';
 		}
