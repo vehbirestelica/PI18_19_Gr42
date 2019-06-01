@@ -26,7 +26,7 @@ $userInput = $_POST['userInput'];
                 checkGameOver($MAX_ATTEMPTS,$_SESSION['attempts'],$_SESSION['answer'], $_SESSION['hidden']);
             }
             $_SESSION['attempts'] = $_SESSION['attempts']+1;
-            echo 'Attempts Remaining: '.(MAX_ATTEMPTS-$_SESSION['attempts']).'<br>';
+            echo 'Attempts Remaining: '.($MAX_ATTEMPTS-$_SESSION['attempts']).'<br>';
         }
     $hidden = $_SESSION['hidden'];
         foreach($hidden as $char) echo $char." ";
