@@ -1,7 +1,7 @@
 <?php
 
 	session_start();
-	header('location:login.php');
+	//header('location:login.php');
 
 	$con = mysqli_connect('localhost', 'root', '');
 
@@ -17,11 +17,23 @@
 	$num = mysqli_num_rows($result);
 
 	if($num==1){
-		echo "Username Already Taken ! <br> Try another one.";
+		if (! (isset($_POST['fullname']) && strlen($_POST['fullname']))) 
+				{
+				echo "<script type=\"text/javascript\">window.alert('Username already taken !');
+				window.location.href = '/projekti_php/pages/login.php';</script>"; 
+				exit;
+				}
 	}
 	else {
 		$reg = "insert into usertable(name, password) values ('$name','$pass')";
 		mysqli_query($con, $reg);
-		echo "Registration Successfull";
+		// echo "Registration Successfull";
+		if (! (isset($_POST['fullname']) && strlen($_POST['fullname']))) 
+				{
+				echo "<script type=\"text/javascript\">window.alert('Registration Successful');
+				window.location.href = '/projekti_php/pages/login.php';</script>"; 
+				exit;
+				}
+
 	}
 ?>
