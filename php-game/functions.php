@@ -64,7 +64,7 @@ echo 'Game over: The correct word was ';
         foreach($answer as $letter){
             echo $letter;
         }
-        echo '<br><form action="" method="post"><input tyype="submit" name="newWord" value="try Another Word"></form><br>';
+        echo '<br><form action="" method="post"><input type="submit" name="newWord" value="try Another Word"></form><br>';
         die;
     }
     if($hidden==$answer){
@@ -72,7 +72,7 @@ echo 'Game over: The correct word was ';
         foreach($answer as $letter){
             echo $letter;
         }
-        echo '<br><form action="" method="post"><input type="sbmit" name="newWord" value="try Another Word"></form><br>';
+        echo '<br><form action="" method="post"><input type="submit" name="newWord" value="try Another Word"></form><br>';
         die;
     }
 }
