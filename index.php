@@ -187,7 +187,6 @@
             font-family: verdana;
             font-size: 16.3px;
         }
-
     </style>
 <link rel="stylesheet" href="styles2.css">
 <meta charset="utf-8">
@@ -340,5 +339,11 @@ MONUMENTAL - World's largest online news destination.
       </td>
      </tr>
     </table></div><hr>
-    <p><em> All rights reserved &copy;2019 Monumental TEAM</em></p>
+    <p><em><?php  
+   $copy_date = "Copyright 1999";
+   $copy_date = preg_replace("([0-9]+)", "2019", $copy_date);
+   
+   echo "<p align='right'><font color=whitesmoke>".$copy_date;
+?></em></p>
+ </div>
    </body></html>
