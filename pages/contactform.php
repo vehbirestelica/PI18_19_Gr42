@@ -30,7 +30,8 @@
 		<div class="success"><?= $success; ?></div>
 	</form>
 </div>
-<span><?php
+<span>
+<?php
 
 	class Pagination {
 
@@ -76,19 +77,16 @@
 	$numbers=($pag->Paginate($data,1));
 
 	$result=$pag->fetchResult();
-
 	foreach($result as $r) {
 
 		echo '<div>'.$r.'</div>';
-
-	}
-
+	} 
 	foreach ($numbers as $num ) {
 		echo '<a href="contactform.php?page='.$num.'">'.$num.'</a>';
 	}
-
 	    function __destruct() {
 	       print " " . __CLASS__ . "\n";
-	    }
-	$obj = new Pagination();
-?></span>
+	       $obj = new Pagination();
+	}
+?>
+</span>
