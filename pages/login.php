@@ -40,5 +40,12 @@
 		</div>
 	</div>
 </div>
+<?php
+	if (isset($_SESSION['user']))
+{
+    echo $_SESSION['user'];
+    unset($_SESSION['user']);
+}
+?>
 </body>
 </html>
