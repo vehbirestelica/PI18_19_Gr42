@@ -1,12 +1,4 @@
 <?php
-/*
- * @package AJAX_Chat
- * @author Sebastian Tschan
- * @copyright (c) Sebastian Tschan
- * @license Modified MIT License
- * @link https://blueimp.net/ajax/
- */
-
 class CustomAJAXChat extends AJAXChat {
 
 	// Returns an associative array containing userName, userID and userRole
