@@ -1,11 +1,5 @@
 <?php
-/*
- * @package AJAX_Chat
- * @author Sebastian Tschan
- * @copyright (c) Sebastian Tschan
- * @license Modified MIT License
- * @link https://blueimp.net/ajax/
- */
+
 
 // Define AJAX Chat user roles:
 define('AJAX_CHAT_BANNED',		6);
