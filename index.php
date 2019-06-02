@@ -216,8 +216,8 @@
      <hr><ul>
         <li><a href="index.html"><i class="fas fa-home"> Home </i>&nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/sports.html">Sports &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/stanlee.html">Lifestyle &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/tech.html">Tech &nbsp&nbsp&nbsp |</a></li>
+        <li><a href="pages/stanlee.php">Lifestyle &nbsp&nbsp&nbsp |</a></li>
+        <li><a href="pages/tech.php">Tech &nbsp&nbsp&nbsp |</a></li>
         <!-- <li><a href="pages/longtextlink.html">Long text link &nbsp&nbsp&nbsp |</a></li> -->
         <li><a href="pages/contactform.php">Contact Us &nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/game/index.php">TicTacToe &nbsp&nbsp&nbsp |</a>
@@ -251,11 +251,15 @@ MONUMENTAL - World's largest online news destination.
 <div id="tekstet">
     <div id="tekst1">
         <pre>
-    <p style="font-size:20px;color: black;"><img src="images/p1.jpg" width="46px" height="46px" alt="!" marging-right="5px">Future Cars
+     <p style="font-size:20px;color: black;"><img src="images/p1.jpg" width="46px" height="46px" alt="!" marging-right="5px">Future Cars
     <p style="color: black;">Manufacturers will be bringing back models from the
     dead and adding all-new models to satisfy the industry’s 
     thirst for new cars.Introducing completely redesigned cars 
-    such Ford Ranger,Chevrolet Silverado 1500 and Tesla X.</p>
+    such <?php
+            $car = array('Ford Ranger','Chevrolet Silverado 1500');
+            $newCar = implode(',',$car);
+            echo $newCar;
+            ?> and Tesla X.</p>
     </pre>
     </div>
     <div id="tekst1">
@@ -323,8 +327,15 @@ MONUMENTAL - World's largest online news destination.
       <a href="images/p3.jpg" class="active" target="_blank"><span style="margin-left: -90%;">This link directs to a photo taken by PC</a><br><hr style="margin-left: -90%;"></span><br>
     <a href="mailto:vehbi.res@gmail.com" class="active"><span style="margin-left: -90%;">This link directs to an e-mail address</a><br><hr style="margin-left: -90%;"></span><br>
         <a href="RegEx.php" class="active"><span style="margin-left: -90%;">This link directs to RegEx examples</a> <br><hr style="margin-left: -90%;"></span></td>
-        <td><b>Company:</b> Monumental<br><b>Street:</b> Calle Bailén <b>Str.</b><br><b>Town:</b> Madrid<br><b>ZipCode:</b>28047<br><br><b>Tel:</b><br>049 123/456<br><b>Fax:</b><br>
+        <td><b>Company:</b> Monumental<br><b>Street:</b> Calle Bailén <b>Str.</b><br><b>Town:</b> Madrid<br><b>ZipCode:</b>28047<br><br><b>Tel:</b><br>
+            <?php
+            $phone = array('049','123','456');
+            $newPhone = implode('-',$phone);
+            echo $newPhone;
+            ?>
+            <br><b>Fax:</b><br>
         38349 123/456<br><br><b>Email:</b><br>team@monumental.com
+            
             
             <h3>Set New PHP Cookie</h3>
     Go to display Cookie Page <a href="pages/display.php">Click here&raquo;</a>
