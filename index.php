@@ -328,6 +328,13 @@ MONUMENTAL - World's largest online news destination.
         <a href="RegEx.php" class="active"><span style="margin-left: -90%;">This link directs to RegEx examples</a> <br><hr style="margin-left: -90%;"></span></td>
         <td><b>Company:</b> Monumental<br><b>Street:</b> Calle Bailén <b>Str.</b><br><b>Town:</b> Madrid<br><b>ZipCode:</b>28047<br><br><b>Tel:</b><br>049 123/456<br><b>Fax:</b><br>
         38349 123/456<br><br><b>Email:</b><br>team@monumental.com
+            
+            <h3>Set New PHP Cookie</h3>
+    Go to display Cookie Page <a href="pages/display.php">Click here&raquo;</a>
+            
+            <h4>New PHP Session</h4>
+            <a href="pages/screate.php">Click here &raquo;</a>
+
         </td>
         <td><div class="rrjetet-sociale"><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" width="16px" height="16px"> Linkedin</a><hr><br><br>
             <a href="https://www.twitter.com" target="_blank"><img src="images/twitter1.PNG" width="16px" height="16px"> Twitter</a><hr><br><br>
