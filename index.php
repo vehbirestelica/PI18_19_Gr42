@@ -196,7 +196,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <div id="signup">
 <a href="pages/signup.php"> Sign Up | </a>
-<a href="pages/login.php"> Login | </a>
+<a href="pages/login.html"> Login | </a>
 <a href="https://rss.com/"> RSS Feed</a>
 </div>
       <div class="search-box"> 
@@ -217,15 +217,12 @@
         <li><a href="index.html"><i class="fas fa-home"> Home </i>&nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/sports.html">Sports &nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/stanlee.html">Lifestyle &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/inheritance.php">OP &nbsp&nbsp&nbsp |</a></li>
-        <!-- <li><a href="pages/tech.html">Tech &nbsp&nbsp&nbsp |</a></li> -->
+        <li><a href="pages/tech.html">Tech &nbsp&nbsp&nbsp |</a></li>
         <!-- <li><a href="pages/longtextlink.html">Long text link &nbsp&nbsp&nbsp |</a></li> -->
         <li><a href="pages/contactform.php">Contact Us &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/game/index.php">Game &nbsp&nbsp&nbsp |</a>
-            <ul>
-                <li><a href="php-game/index.php"> Game 2 </a></li>
-        </ul>
-        <li><a href="pages/login.php"> Log In </a></li>
+        <li><a href="pages/game/index.php">TicTacToe &nbsp&nbsp&nbsp |</a>
+        <li><a href="php-game/index.php"> HangMan &nbsp&nbsp&nbsp |</a></li>
+        <li><a href="pages/login.php"> Registration </a></li>
     </nav><br>
        <div id="fotot">
    
