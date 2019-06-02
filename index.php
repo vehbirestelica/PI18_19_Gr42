@@ -222,7 +222,8 @@
         <li><a href="pages/contactform.php">Contact Us &nbsp&nbsp&nbsp |</a></li>
         <li><a href="pages/game/index.php">TicTacToe &nbsp&nbsp&nbsp |</a>
         <li><a href="php-game/index.php"> HangMan &nbsp&nbsp&nbsp |</a></li>
-        <li><a href="pages/login.php"> Registration </a></li>
+        <li><a href="pages/login.php"> Registration &nbsp&nbsp&nbsp |</a></li>
+        <li><a href="chat/index.php"> AjaxChat</a></li>
     </nav><br>
        <div id="fotot">
    
